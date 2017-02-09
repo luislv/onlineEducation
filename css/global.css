@@ -1,0 +1,63 @@
+body{color:#4a4a4a;}
+.bg-hui-q{ background-color:#fafafa;}
+.bg-hui{ background-color:#eceef3;}
+.bg-hui-s{ background-color:#c9c9c9;}
+.bg-green {background-color:#74d5ce;}
+.bg-green-s { background-color: #00d3c2;}
+.bg-orange { background-color: #ff7a25;}
+.bg-white { background-color: #fff;}
+.black,a.black {color:#000;}
+.white,a.white {color:#fff;}
+.hui-s,a.hui-s{color:#2a2a2a;}
+.hui,a.hui{color:#4a4a4a;}
+.hui-q,a.hui-q{color:#848484;}
+.hui-qr,a.hui-qr {color:#b1b1b1;}
+.green,a.green {color:#74d5ce;}
+.green-h,a.green-h {color:#1ecb61;}
+.orange,a.orange {color:#fc4512;}
+.fullwidth {width:100%;}
+.halfwidth {width:50%;}
+.quarwidth {width:25%;}
+.thirdwidth {width:33.3%;}
+.fourwidth {width:45%;}
+.sixwidth {width:60%;}
+.ninewidth {width:90%;}
+.btn { border: 6px;-webkit-border-radius: 6px;-moz-border-radius: 6px;}
+.left {left:0;}
+.right {right:0;}
+.top {top:0;}
+.bottom {bottom:0;}
+.halfleft {left:50%;}
+.halftop {top:50%;}
+.b-rad3 {border-radius: 3px;-webkit-border-radius: 3px;-moz-border-radius: 3px;}
+.b-rad5 {border-radius: 5px;-webkit-border-radius: 5px;-moz-border-radius: 5px;}
+.odd { background-color: #f8f8f8;}
+.bor-green {border:1px solid #00d3c2}
+.bor-s {border:1px solid #dbdbdb;}
+.bor-q-t {border-top:1px solid #e8e8e8;}
+.bor-q-b {border-bottom:1px solid #e8e8e8;}
+.lh1 {line-height:100% }
+.lh2 {line-height:125% }
+.lh3 {line-height:150% }
+.lh4 {line-height:175% }
+.lh5 {line-height:200% }
+.go-btn {margin-top:-8px;}
+
+/*公共头部*/
+.header {line-height: 20px;position:fixed;top:0;z-index: 999;}
+.head-t  {height:40px;}
+/*公共底部*/
+.footer-t {height:54px;}
+.footer {position:fixed;bottom:0;height:54px;border-top:1px solid #ededed;z-index:999;}
+.footer .item{display:inline-block;float:left;padding:5px 0;}
+/*支付栏*/
+.paybar-t {height:40px;}
+.paybar {height:40px;line-height: 40px;position: fixed;}
+
+/*scroll样式重置*/
+.mbsc-ios .mbsc-fr-btn {font-family:微软雅黑, "Microsoft YaHei", 宋体;font-size:16px;}
+.mbsc-ios .mbsc-fr-btn0 {color:#0079fd;}
+.mbsc-ios .mbsc-fr-btn1 {color:#848484;}
+.mbsc-ios .mbsc-fr-w {font-family:微软雅黑, "Microsoft YaHei", 宋体;}
+/*顶部*/
+/*底部导航*/
