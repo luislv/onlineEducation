@@ -1,63 +1,36 @@
-body{color:#4a4a4a;}
-.bg-hui-q{ background-color:#fafafa;}
-.bg-hui{ background-color:#eceef3;}
-.bg-hui-s{ background-color:#c9c9c9;}
-.bg-green {background-color:#74d5ce;}
-.bg-green-s { background-color: #00d3c2;}
-.bg-orange { background-color: #ff7a25;}
-.bg-white { background-color: #fff;}
-.black,a.black {color:#000;}
-.white,a.white {color:#fff;}
-.hui-s,a.hui-s{color:#2a2a2a;}
-.hui,a.hui{color:#4a4a4a;}
-.hui-q,a.hui-q{color:#848484;}
-.hui-qr,a.hui-qr {color:#b1b1b1;}
-.green,a.green {color:#74d5ce;}
-.green-h,a.green-h {color:#1ecb61;}
-.orange,a.orange {color:#fc4512;}
-.fullwidth {width:100%;}
-.halfwidth {width:50%;}
-.quarwidth {width:25%;}
-.thirdwidth {width:33.3%;}
-.fourwidth {width:45%;}
-.sixwidth {width:60%;}
-.ninewidth {width:90%;}
-.btn { border: 6px;-webkit-border-radius: 6px;-moz-border-radius: 6px;}
-.left {left:0;}
-.right {right:0;}
-.top {top:0;}
-.bottom {bottom:0;}
-.halfleft {left:50%;}
-.halftop {top:50%;}
-.b-rad3 {border-radius: 3px;-webkit-border-radius: 3px;-moz-border-radius: 3px;}
-.b-rad5 {border-radius: 5px;-webkit-border-radius: 5px;-moz-border-radius: 5px;}
-.odd { background-color: #f8f8f8;}
-.bor-green {border:1px solid #00d3c2}
-.bor-s {border:1px solid #dbdbdb;}
-.bor-q-t {border-top:1px solid #e8e8e8;}
-.bor-q-b {border-bottom:1px solid #e8e8e8;}
-.lh1 {line-height:100% }
-.lh2 {line-height:125% }
-.lh3 {line-height:150% }
-.lh4 {line-height:175% }
-.lh5 {line-height:200% }
-.go-btn {margin-top:-8px;}
+@charset "utf-8";
 
-/*公共头部*/
-.header {line-height: 20px;position:fixed;top:0;z-index: 999;}
-.head-t  {height:40px;}
-/*公共底部*/
-.footer-t {height:54px;}
-.footer {position:fixed;bottom:0;height:54px;border-top:1px solid #ededed;z-index:999;}
-.footer .item{display:inline-block;float:left;padding:5px 0;}
-/*支付栏*/
-.paybar-t {height:40px;}
-.paybar {height:40px;line-height: 40px;position: fixed;}
+body{background:#f0eff5}
+.typo-9bgray, a.typo-9bgray{color:#9b9b9b}
+.typo-8gray, a.typo-8gray{color:#888}
+.typo-85gray, a.typo-85gray{color:#858585}
+.typo-35gray, a.typo-35gray{color:#353535}
+.typo-1cgray, a.typo-1cgray{color:#1c1c1c}
+.typo-white, a.typo-white{color:#fff}
+.typo-black, a.typo-black{color:#000}
+.typo-09green, a.typo-09green{color:#09bb07}
+.bg-white{background-color:#fff}
+.bg-eagray{background-color:#eaeaea}
 
-/*scroll样式重置*/
-.mbsc-ios .mbsc-fr-btn {font-family:微软雅黑, "Microsoft YaHei", 宋体;font-size:16px;}
-.mbsc-ios .mbsc-fr-btn0 {color:#0079fd;}
-.mbsc-ios .mbsc-fr-btn1 {color:#848484;}
-.mbsc-ios .mbsc-fr-w {font-family:微软雅黑, "Microsoft YaHei", 宋体;}
-/*顶部*/
-/*底部导航*/
+.fullwidth{width:100%;}
+.halfwidth{width:50%;}
+.thirdwidth{width:33.3%;}
+.lh1{line-height:100%}
+.lh2{line-height:125%}
+.lh3{line-height:150%}
+.lh4{line-height:175%}
+.lh5{line-height:200%}
+.pl5p{padding-left:5%}
+.pr5p{padding-right:5%}
+.bor-b-cdgray{border-bottom:1px solid #cdcdcd;}
+.fs20{font-size:20px;font-size:2rem}
+
+/*按钮*/
+.button{width:92%;border-radius:5px;-webkit-border-radius:5px;-moz-border-radius:5px}
+.button-01{border:1px solid #029400;background-color:#09bb07}
+.button-02{border:1px solid rgba(0,0,0,0.15);background-color:#fbfafc}
+
+/*导航*/
+.nav-practice{border-bottom:1px solid #cdcdcd;box-shadow:inset 0 1px 0 0 #dbdbdb;}
+.nav-practice li{border-right:1px solid #cdcdcd;margin-right:-1px;}
+.nav-practice li.active{background-color:#eaeaea}
