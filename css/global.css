@@ -62,8 +62,16 @@ fieldset{border:none;margin:0;padding:0}
 .textarea{width:90%;border:none}
 .textarea::-webkit-input-placeholder{color:#b2b2b2;font-size:14px;font-size:1.4rem;line-height:1.5}
 
-/*背景遮罩层*/
+/*搜索框*/
+.searchbox{background-color:#f0eff5}
+.container-search{border: 1px solid #E6E6EA;border-radius:5px;-webkit-border-radius:5px;-moz-border-radius:5px;margin-right:35px}
+
+/*弹窗*/
 .backdrop{background-color:rgba(0,0,0,0.5);width:100%;height:100%;z-index:999}
+.popup-fail{width:76%;position:absolute;left:50%;top:50%;margin-top:-65px;margin-left:-38%;border-radius:4px;-webkit-border-radius:4px;-moz-border-radius:4px}
+.container-failbtn{border-top:1px solid #d2d3d5}
+.closebtn{border-right:1px solid #d2d3d5;margin-right:-1px}
+.operatebtn{color:#02bb00}
 
 /*图标*/
 .icon-notFound{font-size:8.5rem}

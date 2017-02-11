@@ -20,51 +20,51 @@
         <fieldset>
             <legend class="hide">个人资料</legend>
             <!--所在城市-->
-            <h2 class="pl5p pb5 fs16 lh1 typo-8gray fn bor-b-e5gray">所在地</h2>
-            <div class="clearfix pt10 pb10 fs16 pl5p pr5p bg-white bor-b-e5gray">
-                <span class="fr typo-8gray">修改城市<i class="iconfont ml15 vm">&#xe611;</i></span>
+            <div class="clearfix pt10 pb10 fs16 pl5p pr5p bg-white bor-b-e5gray bor-t-e5gray">
+                <span class="fr typo-8gray"><i class="iconfont ml15 vm">&#xe611;</i></span>
                 <b class="fn typo-black">深圳</b>
             </div>
             <!--基本信息-->
-            <div class="mt25 pl5p bg-white bor-b-e5gray">
+            <div class="mt10 pl5p bg-white bor-b-e5gray bor-t-e5gray">
                 <p class="pt10 pb10 bor-b-e5gray fs16 lh1 pr5p">
                     <label for="name" id="name" class="inblo typo-black quarwidth">姓名</label>
-                    <input type="text" name="name" placeholder="请输入真实姓名" class="fs16"/>
+                    <input type="text" name="name" placeholder="请输入真实姓名" value="张三" class="fs16"/>
                 </p>
                 <p class="pt10 pb10 bor-b-e5gray fs16 lh1 pr5p">
                     <label for="name" id="cellphone" class="inblo typo-black quarwidth">联系电话</label>
-                    <input type="text" name="cellphone" placeholder="请输入手机号码" class="fs16"/>
+                    <input type="text" name="cellphone" placeholder="请输入手机号码" value="18664300466" class="fs16"/>
                 </p>
                 <p class="pt10 pb10 bor-b-e5gray fs16 lh1 pr5p">
-                    <i class="iconfont ml5 fr typo-8gray vm">&#xe611;</i>
                     <label for="name" id="hospital" class="inblo typo-black quarwidth">所在医院</label>
-                    <input type="text" name="hospital" placeholder="选择医院" class="fs16 halfwidth"/>
+                    <input type="text" name="hospital" placeholder="选择医院" value="深圳市北大医院" class="fs16"/>
                 </p>
                 <p class="pt10 pb10 bor-b-e5gray fs16 lh1 pr5p">
                     <label for="name" id="department" class="inblo typo-black quarwidth">所在部门</label>
-                    <input type="text" name="department" placeholder="输入所在部门" class="fs16"/>
+                    <input type="text" name="department" placeholder="输入所在部门" value="医管科" class="fs16"/>
                 </p>
                 <p class="pt10 pb10 fs16 lh1 pr5p">
                     <label for="name" id="title" class="inblo typo-black quarwidth">职务</label>
-                    <input type="text" name="title" placeholder="输入职务" class="fs16"/>
+                    <input type="text" name="title" placeholder="输入职务" value="主任" class="fs16"/>
                 </p>
             </div>
+            <div class="clearfix mt15 pt10 pb10 fs14 pl5p pr5p bg-white bor-b-cdgray bor-t-e5gray">
+                <span class="fr typo-8gray"><i class="iconfont">&#xe611;</i></span>
+                <b class="fn typo-black">报名管理</b>
+            </div>
+            <div class="clearfix pt10 pb10 fs14 pl5p pr5p bg-white bor-b-cdgray">
+                <span class="fr typo-8gray"><i class="iconfont">&#xe611;</i></span>
+                <b class="fn typo-black">考试管理</b>
+            </div>
+            <div class="clearfix pt10 pb10 fs14 pl5p pr5p bg-white bor-b-cdgray">
+                <span class="fr typo-8gray"><i class="iconfont">&#xe611;</i></span>
+                <b class="fn typo-black">课件管理</b>
+            </div>
             <!--提交按钮-->
-            <div class="tc mt30">
+            <div class="tc mt40">
                 <input type="submit" value="提交资料" class="button button-01 inblo pb10 pt10 tc typo-white bg-9bgreen fs16 lh1" />
             </div>
         </fieldset>
     </form>
 </section>
-<!--失败提示弹窗-->
-<div class="backdrop pf left top">
-    <div class="popup-fail bg-white pt20">
-        <h2 class="fn typo-black fs16 lh1 tc">操作失败!</h2>
-        <p class="fs14 lh1 tc typo-8gray mt10 pb15">告知当前状态，信息和解决方法</p>
-        <div class="container-failbtn clearfix">
-            <div class="operatebtn fs16 lh1 tc pb10 pt10">确定</div>
-        </div>
-    </div>
-</div>
 </body>
 </html>
