@@ -1,9 +1,10 @@
 @charset "utf-8";
 
-body{background:#f0eff5}
+body{background:#f8f8f8}
 .typo-9bgray, a.typo-9bgray{color:#9b9b9b}
 .typo-b2gray, a.typo-b2gray{color:#b2b2b2}
 .typo-2gray, a.typo-2gray{color:#222}
+.typo-6gray, a.typo-6gray{color:#666}
 .typo-8gray, a.typo-8gray{color:#888}
 .typo-9gray, a.typo-9gray{color:#999}
 .typo-85gray, a.typo-85gray{color:#858585}
@@ -30,10 +31,14 @@ body{background:#f0eff5}
 .top{top:0}
 .bottom{bottom:0}
 .mt2{margin-top:2px;margin-top:.2rem}
+.pl2p{padding-left:2%}
 .pl5p{padding-left:5%}
 .pl6p{padding-left:6%}
+.pr2p{padding-right:2%}
 .pr5p{padding-right:5%}
+.pr6p{padding-right:6%}
 .bor-b-cdgray{border-bottom:1px solid #cdcdcd}
+.bor-b-egray{border-bottom:1px solid #eee}
 .bor-b-e5gray{border-bottom:1px solid #e5e5e5 !important;}
 .bor-t-e5gray{border-top:1px solid #e5e5e5}
 .fs20{font-size:20px;font-size:2rem}
