@@ -2,10 +2,12 @@
 
 /*notFoundCourse*/
 .tip-notFound{margin-top:9rem;color:#10aeff}
-.icon-notFound{font-size:8.5rem}
 
 /*exam*/
-.popup-fail{margin:45% 12% 0;border-radius:4px;-webkit-border-radius:4px;-moz-border-radius:4px}
+.popup-fail{width:76%;position:absolute;left:50%;top:50%;margin-top:-65px;margin-left:-38%;border-radius:4px;-webkit-border-radius:4px;-moz-border-radius:4px}
 .container-failbtn{border-top:1px solid #d2d3d5}
 .closebtn{border-right:1px solid #d2d3d5;margin-right:-1px}
 .operatebtn{color:#02bb00}
+
+/*examScore*/
+.examScore{font-size:6rem;padding-top:6rem;padding-bottom:3.5rem}

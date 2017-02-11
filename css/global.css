@@ -2,35 +2,40 @@
 
 body{background:#f0eff5}
 .typo-9bgray, a.typo-9bgray{color:#9b9b9b}
+.typo-b2gray, a.typo-b2gray{color:#b2b2b2}
 .typo-2gray, a.typo-2gray{color:#222}
 .typo-8gray, a.typo-8gray{color:#888}
 .typo-9gray, a.typo-9gray{color:#999}
 .typo-85gray, a.typo-85gray{color:#858585}
 .typo-35gray, a.typo-35gray{color:#353535}
 .typo-1cgray, a.typo-1cgray{color:#1c1c1c}
+.typo-1dgray, a.typo-1dgray{color:#1d1d1d}
 .typo-white, a.typo-white{color:#fff}
 .typo-black, a.typo-black{color:#000}
 .typo-09green, a.typo-09green{color:#09bb07}
 .bg-white{background-color:#fff}
 .bg-eagray{background-color:#eaeaea}
 
-.fullwidth{width:100%;}
-.halfwidth{width:50%;}
-.thirdwidth{width:33.3%;}
+.fullwidth{width:100%}
+.halfwidth{width:50%}
+.thirdwidth{width:33.3%}
 .lh1{line-height:100%}
 .lh2{line-height:125%}
 .lh3{line-height:150%}
 .lh4{line-height:175%}
 .lh5{line-height:200%}
+.pf{position:fixed}
 .left{left:0}
 .right{right:0}
 .top{top:0}
 .bottom{bottom:0}
 .mt2{margin-top:2px;margin-top:.2rem}
 .pl5p{padding-left:5%}
+.pl6p{padding-left:6%}
 .pr5p{padding-right:5%}
-.bor-b-cdgray{border-bottom:1px solid #cdcdcd;}
-.bor-b-e5gray{border-bottom:1px solid #e5e5e5;}
+.bor-b-cdgray{border-bottom:1px solid #cdcdcd}
+.bor-b-e5gray{border-bottom:1px solid #e5e5e5 !important;}
+.bor-t-e5gray{border-top:1px solid #e5e5e5}
 .fs20{font-size:20px;font-size:2rem}
 
 /*按钮*/
@@ -47,6 +52,12 @@ body{background:#f0eff5}
 .checkbox{width:20px;height:20px;border:1px solid #c9c9c9;border-radius:10px;-webkit-border-radius:10px;-moz-border-radius:10px;appearance: none;-webkit-appearance: none;-moz-appearance: none;}
 .checkbox:checked{background:url(../images/icon-checkbox-checked.png) no-repeat -1px -1px;border:none}
 .checkbox01{background-color:#d0011b;border:none}
+.textarea{width:90%;border:none}
+.textarea::-webkit-input-placeholder{color:#b2b2b2;font-size:14px;font-size:1.4rem;line-height:1.5}
 
 /*背景遮罩层*/
 .backdrop{background-color:rgba(0,0,0,0.5);width:100%;height:100%;z-index:999}
+
+/*图标*/
+.icon-notFound{font-size:8.5rem}
+.icon-wrong{width:20px;height:20px;border-radius:10px;-webkit-border-radius:10px;-moz-border-radius:10px;background-color:#d0011b}
