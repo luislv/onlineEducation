@@ -2,7 +2,9 @@
 
 body{background:#f0eff5}
 .typo-9bgray, a.typo-9bgray{color:#9b9b9b}
+.typo-2gray, a.typo-2gray{color:#222}
 .typo-8gray, a.typo-8gray{color:#888}
+.typo-9gray, a.typo-9gray{color:#999}
 .typo-85gray, a.typo-85gray{color:#858585}
 .typo-35gray, a.typo-35gray{color:#353535}
 .typo-1cgray, a.typo-1cgray{color:#1c1c1c}
@@ -20,9 +22,15 @@ body{background:#f0eff5}
 .lh3{line-height:150%}
 .lh4{line-height:175%}
 .lh5{line-height:200%}
+.left{left:0}
+.right{right:0}
+.top{top:0}
+.bottom{bottom:0}
+.mt2{margin-top:2px;margin-top:.2rem}
 .pl5p{padding-left:5%}
 .pr5p{padding-right:5%}
 .bor-b-cdgray{border-bottom:1px solid #cdcdcd;}
+.bor-b-e5gray{border-bottom:1px solid #e5e5e5;}
 .fs20{font-size:20px;font-size:2rem}
 
 /*按钮*/
@@ -34,3 +42,11 @@ body{background:#f0eff5}
 .nav-practice{border-bottom:1px solid #cdcdcd;box-shadow:inset 0 1px 0 0 #dbdbdb;}
 .nav-practice li{border-right:1px solid #cdcdcd;margin-right:-1px;}
 .nav-practice li.active{background-color:#eaeaea}
+
+/*表单样式*/
+.checkbox{width:20px;height:20px;border:1px solid #c9c9c9;border-radius:10px;-webkit-border-radius:10px;-moz-border-radius:10px;appearance: none;-webkit-appearance: none;-moz-appearance: none;}
+.checkbox:checked{background:url(../images/icon-checkbox-checked.png) no-repeat -1px -1px;border:none}
+.checkbox01{background-color:#d0011b;border:none}
+
+/*背景遮罩层*/
+.backdrop{background-color:rgba(0,0,0,0.5);width:100%;height:100%;z-index:999}
