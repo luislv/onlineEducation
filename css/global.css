@@ -1,6 +1,7 @@
 @charset "utf-8";
 
 body{background:#f8f8f8}
+fieldset{border:none;margin:0;padding:0}
 .typo-9bgray, a.typo-9bgray{color:#9b9b9b}
 .typo-b2gray, a.typo-b2gray{color:#b2b2b2}
 .typo-2gray, a.typo-2gray{color:#222}
@@ -20,6 +21,7 @@ body{background:#f8f8f8}
 .fullwidth{width:100%}
 .halfwidth{width:50%}
 .thirdwidth{width:33.3%}
+.quarwidth{width:25%}
 .lh1{line-height:100%}
 .lh2{line-height:125%}
 .lh3{line-height:150%}
