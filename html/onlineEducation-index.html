@@ -12,18 +12,75 @@
     <meta name="format-detection" content="telephone=no" />
     <link rel="stylesheet" href="../css/base.css"/>
     <link rel="stylesheet" href="../css/global.css"/>
+    <link rel="stylesheet" href="../css/style.css"/>
 </head>
 <body>
 <section class="pb50">
-    <p class="pt50 tc"><i class="iconfont icon-notFound typo-09green">&#xe605;</i></p>
-    <p class="mt25 typo-black fs18 lh1 tc">学历教育课程成功报名</p>
-    <p class="mt20 typo-8gray fs16 lh2 tc">
-        请在120分钟内完成支付
-    </p>
-    <p class="mt20 typo-black fs18 lh1 tc">需要支付人民币<b class="fn">1203.92</b>元</p>
-    <div class="tc mt30">
-        <a href="#" class="button button-01 typo-white inblo pb10 pt10 tc fs16 lh1">立即支付</a>
+    <div class="container-news mt50">
+        <a class="block pt10 pb10 pl2p pr2p" href="#"><img src="../images/headline.jpg" width="100%" alt=""/></a>
+        <div class="bor-t-e5gray pt10 pl6p pr5p bg-white clearfix">
+            <a href="#">
+                <img src="../images/news01.jpg" alt="" class="avatar-news ml25 mb10 fr" />
+                <h2 class="fn typo-2gray fs16 pb10 lh2">大咖云集 分享健康 首届中国家庭健康论坛在京举行</h2>
+            </a>
+        </div>
+        <div class="bor-t-e5gray pt10 pl6p pr5p bg-white clearfix">
+            <a href="#">
+                <img src="../images/news01.jpg" alt="" class="avatar-news ml25 mb10 fr" />
+                <h2 class="fn typo-2gray fs16 pb10 lh2">大咖云集 分享健康 首届中国家庭健康论坛在京举行</h2>
+            </a>
+        </div>
+        <div class="bor-t-e5gray pt10 pl6p pr5p bg-white clearfix">
+            <a href="#">
+                <img src="../images/news01.jpg" alt="" class="avatar-news ml25 mb10 fr" />
+                <h2 class="fn typo-2gray fs16 pb10 lh2">大咖云集 分享健康 首届中国家庭健康论坛在京举行</h2>
+            </a>
+        </div>
     </div>
+
 </section>
+<div class="footer-t"></div>
+<footer class="footer-index fullwidth pf left bottom">
+    <div class="item keyboard inblo tc fs14 lh1 fl"><span><i class="iconfont block fs12">&#xe70f;</i><i class="icon-keyboard iconfont fs14">&#xe60e;</i></span></div>
+    <div class="J_list item inblo tc fs14 lh1 fl pr">
+        <span><i class="iconfont fs12">&#xe603;</i>培训课程</span>
+        <div class="J_dropDownList dropDownList pa pl5p pr5p pt5 pb10" style="display:none">
+            <p class="bor-b-e5gray pt5 pb5 tc"><a href="classList.html" class="fs14 lh1 typo-1cgray">进入课堂</a></p>
+            <p class="bor-b-e5gray pt5 pb5 tc"><a href="notFoundCourse.html" class="fs14 lh1 typo-1cgray">选择课程</a></p>
+            <p class="bor-b-e5gray pt5 pb5 tc"><a href="#" class="fs14 lh1 typo-1cgray">选择师资</a></p>
+            <p class="pt5 pb5 tc"><a href="#" class="fs14 lh1 typo-1cgray">考核评论</a></p>
+            <div class="triangle"></div>
+        </div>
+    </div>
+    <div class="J_list item inblo tc fs14 lh1 fl pr">
+        <span><i class="iconfont fs12">&#xe603;</i>最新活动</span>
+        <div class="J_dropDownList dropDownList pa pl5p pr5p pt5 pb10" style="display:none">
+            <p class="bor-b-e5gray pt5 pb5 tc"><a href="#" class="fs14 lh1 typo-1cgray">院长专访</a></p>
+            <p class="bor-b-e5gray pt5 pb5 tc"><a href="#" class="fs14 lh1 typo-1cgray">医院快讯</a></p>
+            <p class="bor-b-e5gray pt5 pb5 tc"><a href="#" class="fs14 lh1 typo-1cgray">卫计委新闻</a></p>
+            <p class="pt5 pb5 tc"><a href="#" class="fs14 lh1 typo-1cgray">培训快讯</a></p>
+            <div class="triangle"></div>
+        </div>
+    </div>
+    <div class="J_list last item inblo tc fs14 lh1 fl pr">
+        <span><i class="iconfont fs12">&#xe603;</i>关于我们</span>
+        <div class="J_dropDownList dropDownList pa pl5p pr5p pt5 pb10" style="display:none">
+            <p class="bor-b-e5gray pt5 pb5 tc"><a href="#" class="fs14 lh1 typo-1cgray">平台介绍</a></p>
+            <p class="bor-b-e5gray pt5 pb5 tc"><a href="#" class="fs14 lh1 typo-1cgray">培训范围</a></p>
+            <p class="bor-b-e5gray pt5 pb5 tc"><a href="#" class="fs14 lh1 typo-1cgray">联系我们</a></p>
+            <p class="pt5 pb5 tc"><a href="#" class="fs14 lh1 typo-1cgray">反馈意见</a></p>
+            <div class="triangle"></div>
+        </div>
+    </div>
+</footer>
+<script src="../js/jquery-1.9.1.min.js"></script>
+<script>
+    $(function() {
+        $('.J_list').on('click', function() {
+            $(this).siblings().find('.J_dropDownList').css('display', 'none');
+            $(this).find('.J_dropDownList').slideToggle('fast');
+        });
+    });
+</script>
 </body>
 </html>
