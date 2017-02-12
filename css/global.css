@@ -11,10 +11,15 @@ fieldset{border:none;margin:0;padding:0}
 .typo-85gray, a.typo-85gray{color:#858585}
 .typo-35gray, a.typo-35gray{color:#353535}
 .typo-1cgray, a.typo-1cgray{color:#1c1c1c}
+.typo-a1gray, a.typo-a1gray{color:#a1a1a1}
 .typo-1dgray, a.typo-1dgray{color:#1d1d1d}
+.typo-4agray, a.typo-4agray{color:#4a4a4a}
+.typo-d6gray, a.typo-d6gray{color:#d6d6d6}
+.typo-a5gray, a.typo-a5gray{color:#a5aaad}
 .typo-white, a.typo-white{color:#fff}
 .typo-black, a.typo-black{color:#000}
 .typo-09green, a.typo-09green{color:#09bb07}
+.bg-09green, a.bg-09green{background-color:#09bb07}
 .bg-white{background-color:#fff}
 .bg-eagray{background-color:#eaeaea}
 
