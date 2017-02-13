@@ -37,7 +37,7 @@ fieldset{border:none;margin:0;padding:0}
 .right{right:0}
 .top{top:0}
 .bottom{bottom:0}
-.mt2{margin-top:2px;margin-top:.2rem}
+.mt2{margin-top:.02rem}
 .pl2p{padding-left:2%}
 .pl5p{padding-left:5%}
 .pl6p{padding-left:6%}
@@ -48,7 +48,7 @@ fieldset{border:none;margin:0;padding:0}
 .bor-b-egray{border-bottom:1px solid #eee}
 .bor-b-e5gray{border-bottom:1px solid #e5e5e5 !important;}
 .bor-t-e5gray{border-top:1px solid #e5e5e5}
-.fs20{font-size:20px;font-size:2rem}
+.fs20{font-size:.2rem}
 .opacity03{opacity:0.3}
 
 /*按钮*/
@@ -66,7 +66,7 @@ fieldset{border:none;margin:0;padding:0}
 .checkbox:checked{background:url(../images/icon-checkbox-checked.png) no-repeat -1px -1px;border:none}
 .checkbox01{background-color:#d0011b;border:none}
 .textarea{width:90%;border:none}
-.textarea::-webkit-input-placeholder{color:#b2b2b2;font-size:14px;font-size:1.4rem;line-height:1.5}
+.textarea::-webkit-input-placeholder{color:#b2b2b2;font-size:.14rem;line-height:1.5}
 
 /*搜索框*/
 .searchbox{background-color:#f0eff5}
@@ -74,12 +74,28 @@ fieldset{border:none;margin:0;padding:0}
 
 /*弹窗*/
 .backdrop{background-color:rgba(0,0,0,0.5);width:100%;height:100%;z-index:999}
-.popup-fail{width:76%;position:absolute;left:50%;top:50%;margin-top:-65px;margin-left:-38%;border-radius:4px;-webkit-border-radius:4px;-moz-border-radius:4px}
-.popup-fail-note{margin-top:-140px}
+.popup-fail{width:76%;position:absolute;left:50%;top:50%;margin-top:-.65rem;margin-left:-38%;border-radius:4px;-webkit-border-radius:4px;-moz-border-radius:4px}
+.popup-fail-note{margin-top:-1.4rem}
 .container-failbtn{border-top:1px solid #d2d3d5}
 .closebtn{border-right:1px solid #d2d3d5;margin-right:-1px}
 .operatebtn{color:#02bb00}
 
 /*图标*/
-.icon-notFound{font-size:8.5rem}
+.icon-notFound{font-size:.85rem}
 .icon-wrong{width:20px;height:20px;border-radius:10px;-webkit-border-radius:10px;-moz-border-radius:10px;background-color:#d0011b}
+
+@media only screen and (min-width: 481px){
+    html {
+        font-size: 940%!important;
+    }
+}
+@media only screen and (min-width: 561px){
+    html {
+        font-size: 1090%!important;
+    }
+}
+@media only screen and (min-width: 641px){
+    html {
+        font-size: 1250%!important;
+    }
+}
