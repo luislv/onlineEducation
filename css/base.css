@@ -1,13 +1,13 @@
 @charset "utf-8";
 html,body,article,header,nav,footer,section,aside,div,ul,ol,li,dl,dt,dd,h1,h2,h3,h4,h5,h6,p,img,span,i,a,em,strong,b,input,textarea,br,select{margin:0;padding:0}
-html{font-size:62.5%}
+html{font-size:625%}
 i,em{font-weight:normal;font-style:normal}
-body{font-family:"microsoft yahei",verdana,arial,\5b8b\4f53,tahoma,'Hiragino Sans GB',sans-serif;font-size:12px;font-size:1.2rem}li{list-style:none}
+body{font-family:"microsoft yahei",verdana,arial,\5b8b\4f53,tahoma,'Hiragino Sans GB',sans-serif;font-size:.12rem}li{list-style:none}
 a,img,input{border:0 none}
 a{text-decoration:none;outline:0;-webkit-tap-highlight-color:rgba(0,0,0,0)}
 a:hover{text-decoration:none}
 a:focus,input:focus{outline:0 none}
-textarea{resize:none;font-size:12px;font-size:1.2rem}
+textarea{resize:none;font-size:.12rem}
 input[type="text"],input[type="submit"],input[type="button"],textarea{-webkit-appearance:none}
 /*图标库*/
 @font-face {
@@ -20,8 +20,7 @@ input[type="text"],input[type="submit"],input[type="button"],textarea{-webkit-ap
 }
 .iconfont{
     font-family:"iconfont";
-    font-size:16px;
-    font-size:1.6rem;
+    font-size:.16rem;
     font-style:normal;
     -webkit-font-smoothing: antialiased;
     -webkit-text-stroke-width: 0.2px;
@@ -51,22 +50,22 @@ input[type="text"],input[type="submit"],input[type="button"],textarea{-webkit-ap
 .w500{width:500px}
 .w800{width:800px}
 .w{width:100%}
-.h50{height:50px;height:5rem}
-.h80{height:80px;height:8rem}
-.h100{height:100px;height:10rem}
-.h200{height:200px;height:20rem}
+.h50{height:.5rem}
+.h80{height:.8rem}
+.h100{height:1rem}
+.h200{height:2rem}
 .h{height:100%}
 .vm{vertical-align:middle}
 .fb{font-weight:bold}
 .fn{font-weight:normal}
 .t2{text-indent:2em}
-.fs12{font-size:12px;font-size:1.2rem}
-.fs13{font-size:13px;font-size:1.3rem}
-.fs14{font-size:14px;font-size:1.4rem}
-.fs15{font-size:15px;font-size:1.5rem}
-.fs16{font-size:16px;font-size:1.6rem}
-.fs18{font-size:18px;font-size:1.8rem}
-.fs20{font-size:20px;font-size:2rem}
+.fs12{font-size:.12rem}
+.fs13{font-size:.13rem}
+.fs14{font-size:.14rem}
+.fs15{font-size:.15rem}
+.fs16{font-size:.16rem}
+.fs18{font-size:.18rem}
+.fs20{font-size:.2rem}
 .unl{text-decoration:underline}
 .no-unl{text-decoration:none}
 .vm{vertical-align:middle}
@@ -83,16 +82,16 @@ input[type="text"],input[type="submit"],input[type="button"],textarea{-webkit-ap
 .m50{margin:50px}
 .m70{margin:70px}
 .m100{margin:100px}
-.mt5{margin-top:5px;margin-top:.5rem}
-.mt10{margin-top:10px;margin-top:1rem}
-.mt15{margin-top:15px;margin-top:1.5rem}
-.mt20{margin-top:20px;margin-top:2rem}
-.mt25{margin-top:25px;margin-top:2.5rem}
-.mt30{margin-top:30px;margin-top:3rem}
-.mt40{margin-top:40px;margin-top:4rem}
-.mt50{margin-top:50px;margin-top:5rem}
-.mt75{margin-top:75px;margin-top:7.5rem}
-.mt100{margin-top:100px;margin-top:10rem}
+.mt5{margin-top:.05rem}
+.mt10{margin-top:.1rem}
+.mt15{margin-top:.15rem}
+.mt20{margin-top:.2rem}
+.mt25{margin-top:.25rem}
+.mt30{margin-top:.3rem}
+.mt40{margin-top:.4rem}
+.mt50{margin-top:.5rem}
+.mt75{margin-top:.75rem}
+.mt100{margin-top:1rem}
 .ml5{margin-left:5px}
 .ml10{margin-left:10px}
 .ml15{margin-left:15px}
@@ -113,16 +112,16 @@ input[type="text"],input[type="submit"],input[type="button"],textarea{-webkit-ap
 .mr50{margin-right:50px}
 .mr75{margin-right:75px}
 .mr100{margin-right:100px}
-.mb5{margin-bottom:5px;margin-bottom:.5rem}
-.mb10{margin-bottom:10px;margin-bottom:1rem}
-.mb15{margin-bottom:15px;margin-bottom:1.5rem}
-.mb20{margin-bottom:20px;margin-bottom:2rem}
-.mb25{margin-bottom:25px;margin-bottom:2.5rem}
-.mb30{margin-bottom:30px;margin-bottom:3rem}
-.mb40{margin-bottom:40px;margin-bottom:4rem}
-.mb50{margin-bottom:50px;margin-bottom:5rem}
-.mb75{margin-bottom:75px;margin-bottom:7.5rem}
-.mb100{margin-bottom:100px;margin-bottom:10rem}
+.mb5{margin-bottom:.05rem}
+.mb10{margin-bottom:.1rem}
+.mb15{margin-bottom:.15rem}
+.mb20{margin-bottom:.2rem}
+.mb25{margin-bottom:..25rem}
+.mb30{margin-bottom:.3rem}
+.mb40{margin-bottom:.4rem}
+.mb50{margin-bottom:.5rem}
+.mb75{margin-bottom:.75rem}
+.mb100{margin-bottom:1rem}
 .p5{padding:5px}
 .p10{padding:10px}
 .p15{padding:15px}
@@ -133,16 +132,16 @@ input[type="text"],input[type="submit"],input[type="button"],textarea{-webkit-ap
 .p50{padding:50px}
 .p70{padding:70px}
 .p100{padding:100px}
-.pt5{padding-top:5px;padding-top:.5rem}
-.pt10{padding-top:10px;padding-top:1rem}
-.pt15{padding-top:15px;padding-top:1.5rem}
-.pt20{padding-top:20px;padding-top:2rem}
-.pt25{padding-top:25px;padding-top:2.5rem}
-.pt30{padding-top:30px;padding-top:3rem}
-.pt40{padding-top:40px;padding-top:4rem}
-.pt50{padding-top:50px;padding-top:5rem}
-.pt75{padding-top:75px;padding-top:7.5rem}
-.pt100{padding-top:100px;padding-top:10rem}
+.pt5{padding-top:.05rem}
+.pt10{padding-top:.1rem}
+.pt15{padding-top:.15rem}
+.pt20{padding-top:.2rem}
+.pt25{padding-top:.25rem}
+.pt30{padding-top:.3rem}
+.pt40{padding-top:.4rem}
+.pt50{padding-top:.5rem}
+.pt75{padding-top:.75rem}
+.pt100{padding-top:1rem}
 .pl5{padding-left:5px}
 .pl10{padding-left:10px}
 .pl15{padding-left:15px}
@@ -163,13 +162,13 @@ input[type="text"],input[type="submit"],input[type="button"],textarea{-webkit-ap
 .pr50{padding-right:50px}
 .pr75{padding-right:75px}
 .pr100{padding-right:100px}
-.pb5{padding-bottom:5px;padding-bottom:.5rem}
-.pb10{padding-bottom:10px;padding-bottom:1rem}
-.pb15{padding-bottom:15px;padding-bottom:1.5rem}
-.pb20{padding-bottom:20px;padding-bottom:2rem}
-.pb25{padding-bottom:25px;padding-bottom:2.5rem}
-.pb30{padding-bottom:30px;padding-bottom:3rem}
-.pb40{padding-bottom:40px;padding-bottom:4rem}
-.pb50{padding-bottom:50px;padding-bottom:5rem}
-.pb75{padding-bottom:75px;padding-bottom:7.5rem}
-.pb100{padding-bottom:100px;padding-bottom:10rem}
+.pb5{padding-bottom:.05rem}
+.pb10{padding-bottom:.1rem}
+.pb15{padding-bottom:.15rem}
+.pb20{padding-bottom:.2rem}
+.pb25{padding-bottom:.25rem}
+.pb30{padding-bottom:.3rem}
+.pb40{padding-bottom:.4rem}
+.pb50{padding-bottom:.5rem}
+.pb75{padding-bottom:.75rem}
+.pb100{padding-bottom:1rem}
