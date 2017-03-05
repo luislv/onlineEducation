@@ -75,10 +75,17 @@
 </footer>
 <script src="../js/jquery-1.9.1.min.js"></script>
 <script>
+    // 底部导航下拉列表
     $(function() {
+        // 点击导航显示对应的下拉列表
         $('.J_list').on('click', function() {
             $(this).siblings().find('.J_dropDownList').css('display', 'none');
             $(this).find('.J_dropDownList').slideToggle('fast');
+            return false;
+        });
+        // 点击空白处隐藏下拉列表
+        $(document).on('click', function() {
+            $('.J_dropDownList').css('display', 'none');
         });
     });
 </script>
